@@ -45,7 +45,6 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'wwwroot', 'js'),
     filename: '[name].bundle.js',
-    publicPath: '/dist/',
     sourceMapFilename: '[file].map'
   }
 };
