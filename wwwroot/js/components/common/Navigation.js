@@ -12,7 +12,7 @@ const Navigation = (props) =>{
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <Link to="/" className="navbar-brand">StormReactNet</Link>
+          <Link to="/" className="navbar-brand">My App</Link>
         </div>
         <div className="navbar-collapse collapse">
           <ul className="nav navbar-nav">

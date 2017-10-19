@@ -40,6 +40,7 @@ namespace ReactNetDemo
 
       if (env.IsDevelopment())
       {
+        Console.WriteLine("This is development");
         app.UseDeveloperExceptionPage();
         app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
         {
